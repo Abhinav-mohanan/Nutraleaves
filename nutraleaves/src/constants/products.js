@@ -1,7 +1,7 @@
 import Broccoli_img from '../assets/Broccoli.png'
 import Radish_img from '../assets/Radish.png'
 import Sunflower_img from '../assets/Sunflower.png'
-import Pea_shoots_img from '../assets/Pea_shoots.png'
+import Pea_shoots_img from '../assets/Pea_Shoots.png'
 
 export  const microgreen_products = [
     { 
