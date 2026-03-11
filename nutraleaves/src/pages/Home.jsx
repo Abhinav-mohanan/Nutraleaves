@@ -3,6 +3,9 @@ import Header from '../components/shared/Header'
 import Hero from '../components/shared/Hero'
 import Benefits from '../components/shared/Benefits'
 import Footer from '../components/shared/Footer'
+import HealthConfidence from '../components/shared/HealthConfidence'
+import Quality from '../components/shared/Quality'
+import Microgreens from '../components/shared/Microgreens'
 
 const Home = () => {
   return (            
@@ -10,6 +13,9 @@ const Home = () => {
     <Header/>
     <Hero/>
     <Benefits/>
+    <HealthConfidence/>
+    <Quality/>
+    <Microgreens/>
     <Footer/>
     </div>
   )

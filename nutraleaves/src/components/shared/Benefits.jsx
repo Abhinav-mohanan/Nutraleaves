@@ -14,7 +14,7 @@ const Benefits = () => {
                     Benefits beyond the imagination...
                     </h2>
                     <p className='text-emerald-700 text-lg font-medium'>
-                    Our microgreens provide comprehensive protection and vitality for your long-term health.
+                    Microgreens provide comprehensive protection and vitality for your long-term health.
                     </p>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
