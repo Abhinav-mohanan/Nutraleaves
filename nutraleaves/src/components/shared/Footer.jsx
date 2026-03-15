@@ -15,8 +15,8 @@ export const Footer = () => {
                 <div className="flex flex-col gap-4">
                     <h4 className="font-bold text-lg mb-2">Navigation</h4>
                     <a className="text-white/60 hover:text-emerald-500 transition-colors text-sm" href="#">Home</a>
-                    <a className="text-white/60 hover:text-emerald-500 transition-colors text-sm" href="#">About Us</a>
-                    <a className="text-white/60 hover:text-emerald-500 transition-colors text-sm" href="#">Microgreens</a>
+                    <a className="text-white/60 hover:text-emerald-500 transition-colors text-sm" href="#about">About Us</a>
+                    <a className="text-white/60 hover:text-emerald-500 transition-colors text-sm" href="#microgreens">Microgreens</a>
                 </div>
                 <div className="flex gap-4">
                     <a className="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-emerald-500 transition-colors" href="#">
@@ -31,7 +31,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-white/40 text-sm">
-                <p>© 2024 Nutraleaves Nutrition. All rights reserved.</p>
+                <p>© 2024 Nutraleaves. All rights reserved.</p>
             </div>
         </div>
     </footer>
