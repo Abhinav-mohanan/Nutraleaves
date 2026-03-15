@@ -6,7 +6,7 @@ const Benefits = () => {
     const benefits = benefits_data
 
   return (
-    <section className='px-4 lg:px-40 py-20 bg-white'>
+    <section id='benefits' className='px-4 lg:px-40 py-20 bg-white'>
         <div className='max-w-[1200px] mx-auto'>
             <div className='flex flex-col gap-12'>
                 <div className='flex flex-col gap-4 max-w-[800px]'>

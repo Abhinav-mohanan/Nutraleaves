@@ -13,9 +13,9 @@ const Header = () => {
             </div>
             <nav className='hidden md:flex items-center gap-6'>
                 <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="">Home</a>
-                <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="">About</a>
-                <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="">Benefits</a>
-                <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="">Microgreens</a>
+                <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="#benefits">Benefits</a>
+                <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="#about">About</a>
+                <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="#microgreens">Microgreens</a>
             </nav>
             <button className='bg-emerald-500 hover:bg-emerald-600 text-slate-900 text-sm font-bold px-5 py-2.5 rounded-xl transition-all'>
                 Contact Us
