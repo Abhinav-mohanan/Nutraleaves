@@ -1,5 +1,6 @@
 import React from 'react'
 import { LeafIcon } from 'lucide-react'
+import { WHATSAPP_URL } from '../../constants/contact'
 
 const Header = () => {
   return (
@@ -17,9 +18,11 @@ const Header = () => {
                 <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="#about">About</a>
                 <a className='text-sm font-medium hover:text-emerald-500 transition-colors' href="#microgreens">Microgreens</a>
             </nav>
-            <button className='bg-emerald-500 hover:bg-emerald-600 text-slate-900 text-sm font-bold px-5 py-2.5 rounded-xl transition-all'>
+            <a
+            href={WHATSAPP_URL}
+             className='bg-emerald-500 hover:bg-emerald-600 text-slate-900 text-sm font-bold px-5 py-2.5 rounded-xl transition-all'>
                 Contact Us
-            </button>
+            </a>
         </div>
     </header>
   )

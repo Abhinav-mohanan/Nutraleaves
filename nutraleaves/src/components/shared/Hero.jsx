@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroImage from '../../assets/HeroImage.png'
+import { WHATSAPP_URL } from '../../constants/contact'
 
 const Hero = () => {
   return (
@@ -16,12 +17,14 @@ const Hero = () => {
                     </p>
                     </div>
                     <div className="flex flex-wrap gap-4">
-                    <button className="min-w-[140px] bg-emerald-500 hover:scale-105 transition-transform text-slate-900 text-base font-bold h-12 px-6 rounded-xl">
+                    {/* <button className="min-w-[140px] bg-emerald-500 hover:scale-105 transition-transform text-slate-900 text-base font-bold h-12 px-6 rounded-xl">
                         Learn More
-                    </button>
-                    <button className="min-w-[140px] bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white text-base font-bold h-12 px-6 rounded-xl transition-all">
+                    </button> */}
+                    <a 
+                    href={WHATSAPP_URL}
+                    className="min-w-[140px] bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white text-base font-bold h-12 px-6 rounded-xl transition-all flex items-center justify-center">
                         Contact Us
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
