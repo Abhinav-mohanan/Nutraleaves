@@ -31,11 +31,11 @@ export const microgreen_products = [
   {
     image: Basil_img,
     title: "Basil",
-    description: "Rich in rosmarinic acid and carotenoids that reduce stress, support liver health, and provide skin radiance."
+    description: "Rich in Phenolic acids and Vitamin C, providing skin radiance and tissue regeneration."
   },
   {
     image: Carrot_img,
     title: "Carrot",
-    description: "Loaded with beta carotene and dietary nitrates for superior vision, heart health, and liver support."
+    description: "Concentrated level of carotenoids and Vitamin C, that enhances vision and immunity."
   }
 ]
