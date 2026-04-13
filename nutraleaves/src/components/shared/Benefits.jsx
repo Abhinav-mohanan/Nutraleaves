@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { benefits_data } from '../../constants/benefits_datas'
 import BenefitCard from '../layouts/BenefitCard'
+import BenefitModal from '../layouts/BenefitModal'
 
 const Benefits = () => {
     const benefits = benefits_data
+    const [selectedBenefit, setSelectedBenefit] = useState(null)
+
 
   return (
     <section id='benefits' className='px-4 lg:px-40 py-20 bg-white'>
@@ -19,11 +22,17 @@ const Benefits = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {benefits.map((benefit,idx)=>(
-                        <BenefitCard key={idx} {...benefit}/>
+                        <BenefitCard key={idx} {...benefit}
+                        onClick={()=> setSelectedBenefit(benefit)}/>
                     ))}
                 </div>
             </div>
         </div>
+        {selectedBenefit &&(
+            <BenefitModal
+            benefit={selectedBenefit}
+            onClose={()=>setSelectedBenefit(null)}/>
+        )}
     </section>
   )
 }

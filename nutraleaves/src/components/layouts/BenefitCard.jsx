@@ -1,8 +1,10 @@
 import React from 'react'
 
-const BenefitCard = ({icon:Icon,title,description}) => {
+const BenefitCard = ({icon:Icon, title, description, onClick}) => {
   return (
-    <div className='group flex flex-col gap-4 rounded-xl border border-emerald-200 bg-stone-50 p-8 
+    <div 
+    onClick={onClick}
+    className='group flex flex-col gap-4 rounded-xl border border-emerald-200 bg-stone-50 p-8 
                     hover:shadow-xl hover:-translate-y-1 transition-all'
         >
         <Icon className='text-emerald-500 w-10 h-10'/>
