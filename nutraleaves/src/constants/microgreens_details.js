@@ -40,5 +40,47 @@ export const microgreens_details = {
     minerals: ["Calcium", "Iron", "Magnesium", "Phosphorus", "Manganese", "Potassium", "Zinc", "Selenium"],
     polyphenols: ["Carotenoids", "Flavonoids", "Phenolic acids"],
     benefits: ["Boosts Immunity", "Enhances vision", "Improve heart health", "Improve brain functions", "Improve liver functions", "Provide skin radiance", "Maintain a healthy digestive system", "Prevent certain cancers"]
+  },
+  "Amaranth Red": {
+    keyNutrients: ["Folate","Beta carotene", "Betacyanins", "Quercetin", "Lysine","Caffeic acid"],
+    vitamins: ["Vitamin A", "Vitamin C", "Vitamin E", "B1 (Thiamine)", "B2 (Riboflavin)", "B3 (Niacin)", "B6 (Pyridoxine)", "B9 (Folate)"],
+    minerals: ["Calcium", "Iron", "Magnesium", "Phosphorus", "Manganese", "Potassium", "Zinc"],
+    polyphenols: ["Carotenoids", "Flavonoids", "Phenolic acids"],
+    benefits: ["Boosts Immunity", "Enhances vision", "Improve heart health", "Improve brain functions", "Support collagen synthesis", "Maintain a healthy digestive system", "Prevent certain cancers"]
+  },
+  "Kale Red": {
+    keyNutrients: ["Anthocyanins", "Alpha-tocopherol", "Beta carotene", "Kaempferol", "Sulforaphane", "Indoles", "Dietary Nitrates"],
+    vitamins: ["Vitamin A", "Vitamin C", "Vitamin E", "Vitamin K", "B1 (Thiamine)", "B2 (Riboflavin)", "B3 (Niacin)", "B6 (Pyridoxine)", "B9 (Folate)"],
+    minerals: ["Calcium", "Iron", "Magnesium", "Phosphorus", "Manganese", "Potassium", "Zinc", "Selenium"],
+    polyphenols: ["Carotenoids", "Flavonoids", "Phenolic acids", "Glucosinolates", "indoles "],
+    benefits: ["Support collagen synthesis" ,"Boosts Immunity", "Enhances vision", "Improve heart health", "Improve brain functions", "Improve liver functions", "Provide skin radiance", "Maintain a healthy digestive system", "Prevent certain cancers"]
+  },
+  "Corn Shoots": {
+    keyNutrients: ["Beta carotene","Ferulic acid",],
+    vitamins: ["Vitamin A", "Vitamin C", "Vitamin E", "B1 (Thiamine)", "B3 (Niacin)"],
+    minerals: ["Iron", "Magnesium", "Manganese", "Potassium", "Zinc"],
+    polyphenols: ["Carotenoids", "Phenolic acids"],
+    benefits: ["Boosts Immunity", "Support collagen synthesis", "Maintain a healthy digestive system", "Prevent certain cancers"]
+  },
+  Fenugreek: {
+    keyNutrients: ["Trigonelline", "Quercetin"],
+    vitamins: ["Vitamin A", "Vitamin C", "Vitamin E", "Vitamin K", "B1 (Thiamine)", "B2 (Riboflavin)", "B3 (Niacin)", "B9 (Folate)"],
+    minerals: ["Calcium", "Iron", "Magnesium", "Phosphorus", "Manganese", "Potassium", "Zinc", "Selenium"],
+    polyphenols: ["Alkaloids ", "Flavonoids"],
+    benefits: ["Boosts Immunity", "Lower Blood Sugar Levels", "Improve heart health", "Improve liver functions", "Maintain a healthy digestive system", "Prevent certain cancers"]
+  },
+  "Red Cabbage": {
+    keyNutrients: ["Anthocyanins", "Beta carotene", "Kaempferol", "Quercetin","Sulforaphane", "Indoles", "Ferulic acid"],
+    vitamins: ["Vitamin A", "Vitamin C", "Vitamin E", "Vitamin K", "B1 (Thiamine)", "B2 (Riboflavin)", "B3 (Niacin)", "B5 (Pantothenic acid)", "B6 (Pyridoxine)"],
+    minerals: ["Calcium", "Iron", "Magnesium", "Phosphorus", "Manganese", "Zinc"],
+    polyphenols: ["Carotenoids", "Flavonoids", "Glucosinolates"],
+    benefits: ["Boosts Immunity", "Enhances vision", "Improve heart health", "Improve brain functions", "Improve liver functions", "Support collagen synthesis", "Maintain a healthy digestive system", "Prevent certain cancers"]
+  },
+  Beetroot: {
+    keyNutrients: ["Beta carotene", "Vulgaxanthin", "Betacyanins", "Ferulic acid", "Dietary Nitrates", "Folate"],
+    vitamins: ["Vitamin A", "Vitamin C", "Vitamin E", "Vitamin K", "B1 (Thiamine)", "B2 (Riboflavin)", "B3 (Niacin)", "B5 (Pantothenic acid)", "B6 (Pyridoxine)", "B9 (Folate)"],
+    minerals: ["Calcium", "Iron", "Magnesium", "Manganese", "Potassium", "Zinc", "Magnesium"],
+    polyphenols: ["Carotenoids", "Betacyanins ", "Phenolic acids"],
+    benefits: ["Boosts Immunity", "Enhances vision", "Improve heart health", "Support collagen synthesis", "Improve liver functions", "Maintain a healthy digestive system", "Prevent certain cancers"]
   }
 }

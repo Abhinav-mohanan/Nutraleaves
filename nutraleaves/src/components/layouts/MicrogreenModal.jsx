@@ -42,17 +42,14 @@ const MicrogreenModal = ({ product, onClose }) => {
         className='relative bg-white rounded-3xl shadow-2xl w-full max-w-xl max-h-[90vh] overflow-hidden flex flex-col animate-fade-in'
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Hero Image — taller, with padding buffer at top via gradient */}
-        <div className='relative h-64 flex-shrink-0 overflow-hidden rounded-t-3xl'>
+        <div className='relative h-64 sm:h-72 md:h-80 lg:h-95 flex-shrink-0 overflow-hidden rounded-t-3xl'>
           <img
             src={image}
             alt={title}
-            className='w-full h-full object-cover scale-105'
+            className='w-full h-full object-contain scale-105'
           />
-          {/* gradient only at bottom for text legibility */}
           <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent' />
 
-          {/* Close button — top right with safe spacing */}
           <button
             onClick={onClose}
             className='absolute top-4 right-4 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 transition-all backdrop-blur-sm border border-white/20'
@@ -60,14 +57,12 @@ const MicrogreenModal = ({ product, onClose }) => {
             <X className='w-4 h-4' />
           </button>
 
-          {/* Title sits at the bottom of the image */}
           <div className='absolute bottom-0 left-0 right-0 p-6'>
             <p className='text-emerald-300 text-xs font-bold uppercase tracking-widest mb-1'>Microgreens</p>
             <h2 className='text-white text-3xl font-black leading-tight'>{title}</h2>
           </div>
         </div>
 
-        {/* Scrollable content */}
         <div className='overflow-y-auto flex-1 p-6 flex flex-col gap-6'>
 
           <Section label="Key Nutrients">
