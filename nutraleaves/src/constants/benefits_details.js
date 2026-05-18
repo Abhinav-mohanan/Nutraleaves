@@ -24,7 +24,7 @@ export const benefits_details = {
       "Cruciferous microgreens, leafy greens, carrot, and sunflower microgreens are good source of kaempferol and quercetin - flavonoid antioxidants. Sunflower, Basil, Corn, and Spinach microgreens are good source of phenolic acids like ferulic acid and rosmarinic acid.",
     keyAction:
       "Kaempferol and quercetin reduces liver inflammation and act as antifibrotic agents. Phenolic acids promote liver cell regeneration, supporting recovery from NAFLD and drug toxicity.",
-    keyMicrogreens: ["Broccoli", "Sunflower", "Amaranth", "Spinach", "Basil", "Sweet Corn", "Kale", "Red cabbage", Carrot],
+    keyMicrogreens: ["Broccoli", "Sunflower", "Amaranth", "Spinach", "Basil", "Sweet Corn", "Kale", "Red cabbage", "Carrot"],
   },
   Neuroprotection: {
     definition:
